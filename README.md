@@ -3,6 +3,10 @@
 Convert a **Descent: Legends of the Dark** save file into a **DescentForge**
 `.dmap` file.
 
+Because of how the original game setups up rooms, the main room will be 
+imported, and then additional rooms will be added beneath as separate rooms
+not attached as you would expect.
+
 A Descent: Legends of the Dark save (`.sav`) turns out to be a JSON dump of
 the Unity scene state -- every tile and prop currently on the board, with
 its real-world position and rotation. This script reads that data and
