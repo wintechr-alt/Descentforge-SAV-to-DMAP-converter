@@ -1,0 +1,621 @@
+[
+  {
+    "id": "Chest",
+    "name": "Cofre",
+    "name_en": "Chest",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "Chest",
+    "challenges": 8,
+    "act": 1,
+    "units": 4
+  },
+  {
+    "id": "Shelf",
+    "name": "Estanter\u00eda",
+    "name_en": "Bookshelf",
+    "w": 2,
+    "h": 1,
+    "official": true,
+    "previewKey": "TERRAIN_BOOKSHELF_PREVIEW",
+    "interactableType": "Shelf",
+    "questions": [
+      {
+        "key": "BOOKSHELF_CHOICE_BAUBLES_FALSE_05",
+        "choices": [
+          "BOOKSHELF_CHOICE_BAUBLES_FALSE_05_OPT1",
+          "BOOKSHELF_CHOICE_BAUBLES_FALSE_05_OPT2",
+          "BOOKSHELF_CHOICE_BAUBLES_FALSE_05_OPT3"
+        ]
+      },
+      {
+        "key": "BOOKSHELF_CHOICE_BAUBLES_FALSE_15",
+        "choices": [
+          "BOOKSHELF_CHOICE_BAUBLES_FALSE_15_OPT1",
+          "BOOKSHELF_CHOICE_BAUBLES_FALSE_15_OPT2",
+          "BOOKSHELF_CHOICE_BAUBLES_FALSE_15_OPT3"
+        ]
+      },
+      {
+        "key": "BOOKSHELF_CHOICE",
+        "choices": [
+          "BOOKSHELF_CHOICE_BOOK",
+          "BOOKSHELF_CHOICE_BOTTLES",
+          "BOOKSHELF_CHOICE_BAUBLES"
+        ]
+      }
+    ],
+    "challenges": 0,
+    "act": 1,
+    "units": 4
+  },
+  {
+    "id": "Lectern",
+    "name": "Atril",
+    "name_en": "Lectern",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "TERRAIN_LECTERN_PREVIEW",
+    "interactableType": "Lectern",
+    "questions": [
+      {
+        "key": "TERRAIN_LECTERN",
+        "choices": [
+          "TERRAIN_LECTERN_OPTION_1"
+        ]
+      }
+    ],
+    "challenges": 0,
+    "act": 1,
+    "units": 1
+  },
+  {
+    "id": "Well",
+    "name": "Pozo",
+    "name_en": "Well",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "Well",
+    "questions": [
+      {
+        "key": "TERRAIN_WELL_CHANCE",
+        "choices": [
+          "TERRAIN_WELL_DRINK",
+          "TERRAIN_WELL_COIN",
+          "TERRAIN_WELL_CHANCE_DIVE"
+        ]
+      },
+      {
+        "key": "TERRAIN_WELL_BRYNN",
+        "choices": [
+          "TERRAIN_WELL_DRINK",
+          "TERRAIN_WELL_COIN",
+          "TERRAIN_WELL_BRYNN_CHALLENGE"
+        ]
+      },
+      {
+        "key": "TERRAIN_WELL_GALADEN",
+        "choices": [
+          "TERRAIN_WELL_DRINK",
+          "TERRAIN_WELL_COIN",
+          "TERRAIN_WELL_GALADEN_REFLECTION"
+        ]
+      },
+      {
+        "key": "TERRAIN_WELL_SYRUS",
+        "choices": [
+          "TERRAIN_WELL_DRINK",
+          "TERRAIN_WELL_COIN",
+          "TERRAIN_WELL_SYRUS_MAGIC"
+        ]
+      },
+      {
+        "key": "TERRAIN_WELL_KEHLI",
+        "choices": [
+          "TERRAIN_WELL_DRINK",
+          "TERRAIN_WELL_COIN",
+          "TERRAIN_WELL_KEHLI_BREW"
+        ]
+      },
+      {
+        "key": "TERRAIN_WELL_VAERIX",
+        "choices": [
+          "TERRAIN_WELL_DRINK",
+          "TERRAIN_WELL_COIN",
+          "TERRAIN_WELL_VAERIX_HEALING"
+        ]
+      }
+    ],
+    "challenges": 5,
+    "act": 1,
+    "units": 1
+  },
+  {
+    "id": "Cauldron",
+    "name": "Caldero",
+    "name_en": "Cauldron",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "TERRAIN_CAULDRON_PREVIEW",
+    "interactableType": "Cauldron",
+    "questions": [
+      {
+        "key": "TERRAIN_CAULDRON_KEHLI",
+        "choices": [
+          "TERRAIN_CAULDRON_KEHLI_01",
+          "TERRAIN_CAULDRON_KEHLI_02",
+          "TERRAIN_CAULDRON_KEHLI_03"
+        ]
+      }
+    ],
+    "challenges": 4,
+    "act": 1,
+    "units": 1
+  },
+  {
+    "id": "Door",
+    "name": "Puerta",
+    "name_en": "Door",
+    "w": 2,
+    "h": 1,
+    "official": true,
+    "previewKey": "DOOR_DEFAULT",
+    "interactableType": "Door",
+    "challenges": 0,
+    "act": 1,
+    "units": 4
+  },
+  {
+    "id": "SightToken",
+    "name": "Punto de inter\u00e9s",
+    "name_en": "Point of interest",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "SightToken",
+    "challenges": 0,
+    "act": 1
+  },
+  {
+    "id": "InteractToken",
+    "name": "Ficha de interacci\u00f3n",
+    "name_en": "Interact token",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1
+  },
+  {
+    "id": "Bell",
+    "name": "Campana",
+    "name_en": "Bell",
+    "w": 4,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "Bell",
+    "questions": [
+      {
+        "key": "TERRAIN_BELL_INTERACT",
+        "choices": [
+          "TERRAIN_BELL_INTERACT_RING",
+          "TERRAIN_BELL_INTERACT_SILENCE",
+          "TERRAIN_BELL_INTERACT_CLEANSE",
+          "TERRAIN_BELL_INTERACT_DESTROY"
+        ]
+      }
+    ],
+    "challenges": 1,
+    "act": 2
+  },
+  {
+    "id": "BloodShrine",
+    "name": "Altar de sangre",
+    "name_en": "Blood shrine",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "BloodShrine",
+    "questions": [
+      {
+        "key": "TERRAIN_SHRINE_PREVIEW_DRAGON",
+        "choices": [
+          "TERRAIN_SHRINE_OFFERING",
+          "TERRAIN_SHRINE_LOOT",
+          "TERRAIN_SHRINE_CLEANSE"
+        ]
+      },
+      {
+        "key": "TERRAIN_SHRINE_PREVIEW_UNDEAD",
+        "choices": [
+          "TERRAIN_SHRINE_OFFERING",
+          "TERRAIN_SHRINE_LOOT",
+          "TERRAIN_SHRINE_CLEANSE"
+        ]
+      },
+      {
+        "key": "TERRAIN_SHRINE_PREVIEW_UTHUK",
+        "choices": [
+          "TERRAIN_SHRINE_OFFERING",
+          "TERRAIN_SHRINE_LOOT",
+          "TERRAIN_SHRINE_CLEANSE"
+        ]
+      }
+    ],
+    "challenges": 3,
+    "act": 2
+  },
+  {
+    "id": "Fire",
+    "name": "Fuego",
+    "name_en": "Fire",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "TERRAIN_FIRE_PREVIEW",
+    "interactableType": "Fire",
+    "questions": [
+      {
+        "key": "TERRAIN_FIRE_PREVIEW",
+        "choices": [
+          "TERRAIN_FIRE_DOUSE",
+          "TERRAIN_FIRE_FEED",
+          "TERRAIN_FIRE_CHANNEL",
+          "TERRAIN_FIRE_KEHLI"
+        ]
+      },
+      {
+        "key": "TERRAIN_FIRE_PREVIEW",
+        "choices": [
+          "TERRAIN_FIRE_DOUSE",
+          "TERRAIN_FIRE_FEED",
+          "TERRAIN_FIRE_CHANNEL"
+        ]
+      }
+    ],
+    "challenges": 2,
+    "act": 2
+  },
+  {
+    "id": "Ladder",
+    "name": "Escala",
+    "name_en": "Ladder",
+    "w": 1,
+    "h": 1,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 2
+  },
+  {
+    "id": "Statue",
+    "name": "Estatua",
+    "name_en": "Statue",
+    "w": 3,
+    "h": 3,
+    "official": true,
+    "previewKey": "TERRAIN_STATUE_PREVIEW",
+    "interactableType": "Statue",
+    "questions": [
+      {
+        "key": "TERRAIN_STATUE_PREVIEW",
+        "choices": [
+          "TERRAIN_STATUE_CLIMB_ACTION",
+          "TERRAIN_STATUE_STUDY_ACTION"
+        ]
+      }
+    ],
+    "challenges": 1,
+    "act": 2
+  },
+  {
+    "id": "Wagon",
+    "name": "Carro",
+    "name_en": "Wagon",
+    "w": 3,
+    "h": 2,
+    "official": true,
+    "previewKey": "TERRAIN_WAGON_PREVIEW",
+    "interactableType": "Wagon",
+    "questions": [
+      {
+        "key": "TERRAIN_WAGON_PREVIEW",
+        "choices": [
+          "TERRAIN_WAGON_ACTION_SEARCH",
+          "TERRAIN_WAGON_ACTION_HIDE"
+        ]
+      }
+    ],
+    "challenges": 1,
+    "act": 2
+  },
+  {
+    "id": "Archway",
+    "name": "Arco",
+    "name_en": "Archway",
+    "w": 4,
+    "h": 1,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1,
+    "units": 2
+  },
+  {
+    "id": "Barricade",
+    "name": "Barricada",
+    "name_en": "Spiked barricade",
+    "w": 2,
+    "h": 1,
+    "official": true,
+    "previewKey": "TERRAIN_BARRICADE_PREVIEW",
+    "interactableType": "None",
+    "questions": [
+      {
+        "key": "TERRAIN_BARRICADE",
+        "choices": [
+          "TERRAIN_BARRICADE_OPTION_1",
+          "TERRAIN_BARRICADE_OPTION_2",
+          "TERRAIN_BARRICADE_OPTION_SYRUS"
+        ]
+      },
+      {
+        "key": "TERRAIN_BARRICADE",
+        "choices": [
+          "TERRAIN_BARRICADE_OPTION_1",
+          "TERRAIN_BARRICADE_OPTION_2"
+        ]
+      }
+    ],
+    "challenges": 2,
+    "act": 1,
+    "units": 2
+  },
+  {
+    "id": "Bridge",
+    "name": "Puente",
+    "name_en": "Bridge",
+    "w": 6,
+    "h": 2,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 2
+  },
+  {
+    "id": "DragonArch",
+    "name": "Arco del drag\u00f3n",
+    "name_en": "Dragon arch",
+    "w": 7,
+    "h": 6,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1,
+    "units": 1
+  },
+  {
+    "id": "DragonHead",
+    "name": "Cabeza de drag\u00f3n",
+    "name_en": "Dragon head",
+    "w": 2,
+    "h": 3,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1,
+    "units": 1
+  },
+  {
+    "id": "Gate",
+    "name": "Verja",
+    "name_en": "Gate",
+    "w": 2,
+    "h": 1,
+    "official": true,
+    "previewKey": "GATE_PREVIEW",
+    "interactableType": "Door",
+    "challenges": 0,
+    "act": 1,
+    "units": 2
+  },
+  {
+    "id": "Pillar",
+    "name": "Columna",
+    "name_en": "Pillar",
+    "w": 1,
+    "h": 1,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 1,
+    "act": 1,
+    "pool": "pillars"
+  },
+  {
+    "id": "PillarShort",
+    "name": "Columna corta",
+    "name_en": "Short pillar",
+    "w": 1,
+    "h": 1,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1,
+    "units": 8,
+    "pool": "pillars",
+    "anchor": "vertex"
+  },
+  {
+    "id": "PillarTall",
+    "name": "Columna alta",
+    "name_en": "Tall pillar",
+    "w": 1,
+    "h": 1,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1,
+    "units": 4,
+    "pool": "pillars",
+    "anchor": "vertex"
+  },
+  {
+    "id": "PillarPush",
+    "name": "Columna empujable",
+    "name_en": "Pushable pillar",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 1,
+    "act": 2
+  },
+  {
+    "id": "LadderMedium",
+    "name": "Escala media",
+    "name_en": "Medium ladder",
+    "w": 1,
+    "h": 1,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 2
+  },
+  {
+    "id": "RoundTable",
+    "name": "Mesa redonda",
+    "name_en": "Round table",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1,
+    "units": 3
+  },
+  {
+    "id": "Staircase",
+    "name": "Escalera",
+    "name_en": "Staircase",
+    "w": 3,
+    "h": 2,
+    "official": false,
+    "previewKey": "",
+    "interactableType": "None",
+    "challenges": 0,
+    "act": 1,
+    "units": 4
+  },
+  {
+    "id": "StoneTable",
+    "name": "Mesa de piedra",
+    "name_en": "Stone table",
+    "w": 2,
+    "h": 1,
+    "official": true,
+    "previewKey": "",
+    "interactableType": "None",
+    "questions": [
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_2_ITEMS",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_1",
+          "TERRAIN_LARGE_TABLE_OPTION_3"
+        ]
+      },
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_2_ITEMS",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_1",
+          "TERRAIN_LARGE_TABLE_OPTION_4"
+        ]
+      },
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_2_ITEMS",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_2",
+          "TERRAIN_LARGE_TABLE_OPTION_3"
+        ]
+      },
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_2_ITEMS",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_2",
+          "TERRAIN_LARGE_TABLE_OPTION_4"
+        ]
+      },
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_1_ITEM",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_1"
+        ]
+      },
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_1_ITEM",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_2"
+        ]
+      },
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_1_ITEM",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_3"
+        ]
+      },
+      {
+        "key": "TERRAIN_LARGE_TABLE_PREVIEW_1_ITEM",
+        "choices": [
+          "TERRAIN_LARGE_TABLE_OPTION_4"
+        ]
+      }
+    ],
+    "challenges": 0,
+    "act": 1,
+    "units": 3
+  },
+  {
+    "id": "Tree",
+    "name": "\u00c1rbol",
+    "name_en": "Tree",
+    "w": 1,
+    "h": 1,
+    "official": true,
+    "previewKey": "TERRAIN_TREE_PREVIEW",
+    "interactableType": "None",
+    "questions": [
+      {
+        "key": "TREE_CHOICE",
+        "choices": [
+          "TREE_CHOICE_FRUIT",
+          "TREE_CHOICE_MOSS",
+          "TREE_CHOICE_CLIMB"
+        ]
+      }
+    ],
+    "challenges": 2,
+    "act": 1,
+    "units": 3
+  }
+]
