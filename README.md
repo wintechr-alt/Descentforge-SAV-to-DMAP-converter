@@ -3,7 +3,7 @@
 Convert a **Descent: Legends of the Dark** save file into a **DescentForge**
 `.dmap` file.
 
-https://wintechr-alt.github.io/Descentforge-SAV-to-DMAP-converter/
+https://wintechr-alt.github.io/Descentforge-SAV-to-DMAP-converter/sav_to_dmap.html
 
 Because of how the original game setups up rooms, the main room will be 
 imported, and then additional rooms will be added beneath as separate rooms
